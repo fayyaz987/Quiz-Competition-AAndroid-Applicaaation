@@ -85,7 +85,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tv"
+                        android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -100,7 +100,7 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/btn"
+                        android:id="@+id/button1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/bg_ui"
@@ -110,7 +110,7 @@
                         android:textColor="@color/colorWhite" />
 
                     <Button
-                        android:id="@+id/btn2"
+                        android:id="@+id/button2"
                         android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
                         android:textColor="@color/colorWhite" />
 
                     <Button
-                        android:id="@+id/btn3"
+                        android:id="@+id/button3"
                         android:layout_marginTop="20dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
