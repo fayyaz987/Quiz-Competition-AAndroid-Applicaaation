@@ -22,7 +22,6 @@ public class LogIn extends AppCompatActivity {
     SharedPreferences sharedpreferences;
     EditText et1,et2;
     Button btn;
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
