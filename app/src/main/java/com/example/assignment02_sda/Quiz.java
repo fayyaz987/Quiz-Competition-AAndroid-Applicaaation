@@ -129,8 +129,7 @@ public class Quiz extends AppCompatActivity {
         if (answer5) {
             answer5_score = 1;
         } else {
-            answer5_score = 0;
-        }
+            answer5_score = 0; }
         //------------------------------------------------------------------------------------------
         // Question 6 - Correct Answer is "Clouds" or "Cloud"
         //------------------------------------------------------------------------------------------
