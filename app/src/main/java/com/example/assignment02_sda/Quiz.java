@@ -119,8 +119,7 @@ public class Quiz extends AppCompatActivity {
         if (answer4.equals("gravity")) {
             answer4_score = 1;
         } else {
-            answer4_score = 0;
-        }
+            answer4_score = 0; }
         //------------------------------------------------------------------------------------------
         // Question 5  - Correct Answers is #2 "Pine trees"
         //------------------------------------------------------------------------------------------
