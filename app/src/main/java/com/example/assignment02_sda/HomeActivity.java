@@ -28,13 +28,14 @@ public class HomeActivity extends AppCompatActivity {
 
         tv = (TextView) findViewById(R.id.textView1);
         btn = (Button) findViewById(R.id.button1);
-        btn3 = (Button) findViewById(R.id.button3);
+       btn3 = (Button) findViewById(R.id.button3);
         Bundle data = getIntent().getExtras();
         n = data.getString("Name");
         tv.setText("Welcome " + n);
         btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+// TODO Auto-generated method stub
                 sharedpreferences = getSharedPreferences(LogIn.MyPREFERENCES, Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedpreferences.edit();
                 editor.clear();
